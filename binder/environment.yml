@@ -1,0 +1,13 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - dask
+  - dask-ml
+  - dask-labextension
+  - ipywidgets
+  - jupyterlab
+  - nbserverproxy
+  - nodejs
+  - pytables
+  - python-graphviz
