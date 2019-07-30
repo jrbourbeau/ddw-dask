@@ -4,9 +4,10 @@ dependencies:
   - python=3
   - dask
   - dask-ml
-  - dask-labextension
+  - dask-labextension>=1.0
+  - bokeh
   - ipywidgets
-  - jupyterlab
+  - jupyterlab>=1.0
   - nbserverproxy
   - nodejs
   - pytables

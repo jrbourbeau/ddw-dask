@@ -40,7 +40,7 @@ inside the activated Conda environment.
 The notebook can then be launched with:
 
 ```terminal
-jupyter lab dask-demo.ipynb
+jupyter lab ddw-dask.ipynb
 ```
 
 ## Additional Resources
