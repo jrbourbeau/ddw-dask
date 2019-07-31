@@ -1,4 +1,4 @@
-# Parallel Computing in Python with Dask @ Data Driven Wisconsin
+# Parallel Computing in Python with Dask @ Data-Driven Wisconsin
 
 This repository contains the materials for my "Parallel Computing in Python with Dask" talk at Data Driven Wisconsin 2019. 
 
@@ -25,7 +25,7 @@ Activate the Conda environment:
 conda activate ddw-dask
 ```
 
-**(Optional) Step 3: Install JupyterLab extension**
+**Step 3: Install Dask JupyterLab extension (optional)**
 
 The [Dask JupyterLab extension](https://github.com/dask/dask-labextension) can be installed with:
 
@@ -35,7 +35,7 @@ jupyter labextension install dask-labextension
 
 inside the activated Conda environment.
 
-**Step 4: Run Jupyter**
+**Step 4: Launch JupyterLab**
 
 The notebook can then be launched with:
 
@@ -51,8 +51,6 @@ jupyter lab ddw-dask.ipynb
 
     - Documentation: https://docs.dask.org
 
-    - Dask examples repository: https://github.com/dask/dask-examples
-
 - There are lots of great Dask tutorial from various conference on YouTube. For example:
 
     - "Parallelizing Scientific Python with Dask" @ SciPy 2018: [YouTube](https://www.youtube.com/watch?v=mqdglv9GnM8)
@@ -61,4 +59,4 @@ jupyter lab ddw-dask.ipynb
 
 - If you have a Dask usage questions, please ask it on [Stack Overflow with the #dask tag](https://stackoverflow.com/questions/tagged/dask). Dask developers monitor this tag and will answer questions.
 
-- If you run into a bug, feel free to file a report on the [Dask GitHub issue tracker](https://github.com/dask/dask/issues).
+- If you run into a bug or have a feature request, please feel free to file a report on the [Dask GitHub issue tracker](https://github.com/dask/dask/issues).

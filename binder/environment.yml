@@ -2,8 +2,9 @@ channels:
   - conda-forge
 dependencies:
   - python=3
-  - dask
-  - dask-ml
+  - dask=2.1.0
+  - distributed=2.1.0
+  - dask-ml=1.0.0
   - dask-labextension>=1.0
   - bokeh
   - ipywidgets
